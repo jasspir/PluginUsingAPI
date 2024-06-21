@@ -17,6 +17,7 @@ public final class PluginUsingAPI extends JavaPlugin {
         if (api == null) {
             getLogger().log(Level.WARNING, "failed to grab api");
         } else {
+            //if it works it should log "clementine", which was set inside the main plugin
             getLogger().log(Level.WARNING, api.getName());
         }
     }
