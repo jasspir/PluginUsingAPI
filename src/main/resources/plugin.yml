@@ -1,0 +1,4 @@
+name: PluginUsingAPI
+version: '${project.version}'
+main: me.jass.pluginusingapi.PluginUsingAPI
+api-version: '1.20'
