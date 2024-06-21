@@ -21,17 +21,6 @@ public final class PluginUsingAPI extends JavaPlugin {
         }
     }
 
-    public void getAPI() {
-        getLogger().log(Level.WARNING, "grabbing api...");
-        API api = getServer().getServicesManager().load(API.class);
-
-        if (api == null) {
-            getLogger().log(Level.WARNING, "failed to grab api");
-        } else {
-            getLogger().log(Level.WARNING, api.getName());
-        }
-    }
-
     @Override
     public void onDisable() {
     }
